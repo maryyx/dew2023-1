@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="formuario.php" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="nome_usuario">Nome:</label>
+                <!--Input text é um campo de ent-->
+                <input type="text" name="nome_usuario" id="nome_usuario"
+                size="50" maxlength="10" minlength="3" placeholder="Digite seu nome">
+            </div>
+            <div>
+                <label for="Endereço">Endereço:</label>
+                <input type="text" name="Endereço" id="Endereço">
+            </div>
+            <div>
+               <label for="Cidade">Cidade</label>
+               <input type="text" name="Cidade" id="Cidade">
+            </div>
+            <div>
+               <label for="">Estados</label>
+               <select name="opc" id="opc">
+                <option value="São Paulo">SP</option>
+                <option value="Minas gerais">MG</option>
+                <option value="Rio de janeiro">RJ</option>
+                <option value="Mato grosso">MT</option>
+               </select>  
+            </div>
+               
+            <br>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+
+                <label for="">Natureza do cargo:</label>
+                <br>
+                <input type="radio" name="gerencia" id="gerencia">
+                <label for="gerencia">Gerencia</label>
+                <input type="radio" name="financeiro" id="financeiro">
+                <label for="financeiro">Financeiro</label>
+                <input type="radio" name="recepcão" id="recepção">
+                <label for="Adiministrativo">Adiministrativo</label>
+                <input type="radio" name="Adiministrativo" id="Adiministrativo">
+                <label for="Juridico">Juridico</label>
+                <input type="radio" name="Juridico" id="Juridico">
+            </div>
+            
+        </fieldset>
+                
+            
+    </form>
+</body>
+</html>
