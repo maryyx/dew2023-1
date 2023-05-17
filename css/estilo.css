@@ -1,0 +1,14 @@
+div {
+    background-color: DeepSkyBlue;/*altera cor de fundo*/
+    font-family: Cambria, Cochin, Georgina,serif;
+    /*altera o tipo de fonte*/
+    font-size: 30px;/*altera o tamanho de fonte*/
+}
+div li
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-seri
+}
+h1,h2
+{
+    /*aplicando a regra CSS para mais de um seletor*/
+}
