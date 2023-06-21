@@ -1,15 +1,13 @@
-*{ 
-    position: fixed;
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }/*Resetar configuração padrão de todod od elementos*/
 
 img{
-    width: 500px;
-    height: 400px;
+    width: 600px;
+    height: 500px;
     position: fixed;
-    right: 5%;
-    bottom: 20%;
-
-} 
+    right: 20px;
+    bottom: 250px;
+}
