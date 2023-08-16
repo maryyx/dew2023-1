@@ -1,0 +1,176 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: url(../img/galaxia\ css.jpg);
+  }
+    
+ 
+
+  #coluna{
+    flex-direction: column;
+    margin: 0px;
+  }
+  
+  .logo {
+    width: 125px;
+    height: 125px;
+    background-color: red; /* Instituto Federal red color */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    
+  }
+  
+  .Logo2{
+    width: 125px;
+    height: 125px;
+    background-color: green; /* Instituto Federal green color */
+    border-radius: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    animation: pulse 4s infinite alternate;
+    
+
+  }
+  .Logo3{
+    width: 125px;
+    height: 125px;
+    background-color: green; /* Instituto Federal green color */
+    border-radius: 25%;
+    display: block;
+    align-items: left;
+    justify-content: left;
+    margin: 15px;
+    animation: pulse 4s infinite alternate;
+  }
+
+  .Logo4{
+    width: 125px;
+    height: 125px;
+    background-color: green; /* Instituto Federal green color */
+    border-radius: 25%;
+    display: block;
+    align-items: left;
+    justify-content: left;
+    margin: 15px;
+    animation: pulse 4s infinite alternate;
+  }
+
+  #coluna2{
+    flex-direction: column;
+    margin: 0px
+  }
+
+.Logo5{
+    width: 125px;
+    height: 125px;
+    background-color: green; /* Instituto Federal green color */
+    border-radius: 25%;
+    display: block;
+    align-items: left;
+    justify-content: left;
+    margin: 15px;
+    animation: pulse 4s infinite alternate;
+  }
+  .Logo6{
+    width: 125px;
+    height: 125px;
+    background-color: green; /* Instituto Federal green color */
+    border-radius: 25%;
+    display: block;
+    align-items: left;
+    justify-content: left;
+    margin: 15px;
+    animation: pulse 4s infinite alternate;
+  }
+  .Logo7{
+    width: 125px;
+    height: 125px;
+    background-color: green; /* Instituto Federal green color */
+    border-radius: 25%;
+    display: block;
+    align-items: left;
+    justify-content: left;
+    margin: 15px;
+    animation: pulse 4s infinite alternate;
+  }
+  .Logo8{
+    width: 125px;
+    height: 125px;
+    background-color: green; /* Instituto Federal green color */
+    border-radius: 25%;
+    display: block;
+    align-items: left;
+    justify-content: left;
+    margin: 15px;
+    animation: pulse 4s infinite alternate;
+  }
+  #coluna3{
+    flex-direction: column;
+    margin: 0px;
+  }
+  .Logo9{
+    width: 125px;
+    height: 125px;
+    background-color: green; /* Instituto Federal green color */
+    border-radius: 25%;
+    display: block;
+    align-items: left;
+    justify-content: left;
+    margin: 15px;
+    animation: pulse 4s infinite alternate;
+  }
+  .Logo10{
+    width: 125px;
+    height: 125px;
+     /* Instituto Federal whitesmoke color */
+    border-radius: 25%;
+    display: block;
+    align-items: left;
+    justify-content: left;
+    margin: 15px;
+    animation: pulse 4s infinite alternate;
+  }
+  .Logo11{
+    width: 125px;
+    height: 125px;
+    background-color: green; /* Instituto Federal green color */
+    border-radius: 25%;
+    display: block;
+    align-items: left;
+    justify-content: left;
+    margin: 15px;
+    animation: pulse 4s infinite alternate;
+  }
+  .Logo12{
+    width: 125px;
+    height: 125px;
+     /* Instituto Federal whitesmoke color */
+    border-radius: 25%;
+    display: block;
+    align-items: left;
+    justify-content: left;
+    margin: 15px;
+    animation: pulse 4s infinite alternate;
+  }
+  .foguete {
+	position: absolute;
+	transform-origin: 300px 100px;
+	animation: foguete 10s linear infinite;
+}
+
+@keyframes foguete {
+	0% {
+		transform: rotate(0deg)
+	}
+	100% {
+		transform: rotate(740deg);
+	}
+}
