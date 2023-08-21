@@ -23,7 +23,9 @@ body{
     align-items: center;
     justify-content: center;
     margin: 15px;
-    
+    animation: pulse 1s infinite alternate;
+    animation: fade-in 2s ease-out;
+
   }
   
   .Logo2{
@@ -35,9 +37,9 @@ body{
     align-items: center;
     justify-content: center;
     margin: 15px;
-    animation: pulse 4s infinite alternate;
+    animation: pulse 1s infinite alternate;
+    animation: fade-in 2s ease-out;
     
-
   }
   .Logo3{
     width: 125px;
@@ -48,7 +50,9 @@ body{
     align-items: left;
     justify-content: left;
     margin: 15px;
-    animation: pulse 4s infinite alternate;
+    animation: pulse 1s infinite alternate;
+    animation: fade-in 2s ease-out;
+    
   }
 
   .Logo4{
@@ -60,13 +64,23 @@ body{
     align-items: left;
     justify-content: left;
     margin: 15px;
-    animation: pulse 4s infinite alternate;
+    animation: pulse 1s infinite alternate;
+    animation: fade-in 2s ease-out;
+    
   }
 
   #coluna2{
     flex-direction: column;
     margin: 0px
   }
+ 
+  .Logo13{
+    border-radius: 25%;
+    display: block;
+    align-items: left;
+    justify-content: left;
+    margin: 15px;
+    }
 
 .Logo5{
     width: 125px;
@@ -77,7 +91,9 @@ body{
     align-items: left;
     justify-content: left;
     margin: 15px;
-    animation: pulse 4s infinite alternate;
+    animation: pulse 1s infinite alternate;
+    animation: fade-in 2s ease-out;
+    
   }
   .Logo6{
     width: 125px;
@@ -88,7 +104,9 @@ body{
     align-items: left;
     justify-content: left;
     margin: 15px;
-    animation: pulse 4s infinite alternate;
+    animation: pulse 1s infinite alternate;
+    animation: fade-in 2s ease-out;
+  
   }
   .Logo7{
     width: 125px;
@@ -99,7 +117,9 @@ body{
     align-items: left;
     justify-content: left;
     margin: 15px;
-    animation: pulse 4s infinite alternate;
+    animation: pulse 1s infinite alternate;
+    animation: fade-in 2s ease-out;
+    
   }
   .Logo8{
     width: 125px;
@@ -110,7 +130,9 @@ body{
     align-items: left;
     justify-content: left;
     margin: 15px;
-    animation: pulse 4s infinite alternate;
+    animation: pulse 1s infinite alternate;
+    animation: fade-in 2s ease-out;
+    
   }
   #coluna3{
     flex-direction: column;
@@ -125,7 +147,9 @@ body{
     align-items: left;
     justify-content: left;
     margin: 15px;
-    animation: pulse 4s infinite alternate;
+    animation: pulse 1s infinite alternate;
+    animation: fade-in 2s ease-out;
+    
   }
   .Logo10{
     width: 125px;
@@ -136,7 +160,9 @@ body{
     align-items: left;
     justify-content: left;
     margin: 15px;
-    animation: pulse 4s infinite alternate;
+    animation: pulse 1s infinite alternate;
+    animation: fade-in 2s ease-out;
+    
   }
   .Logo11{
     width: 125px;
@@ -147,7 +173,9 @@ body{
     align-items: left;
     justify-content: left;
     margin: 15px;
-    animation: pulse 4s infinite alternate;
+    animation: pulse 1s infinite alternate;
+    animation: fade-in 2s ease-out;
+    
   }
   .Logo12{
     width: 125px;
@@ -158,11 +186,17 @@ body{
     align-items: left;
     justify-content: left;
     margin: 15px;
-    animation: pulse 4s infinite alternate;
+    animation: pulse 1s infinite alternate;
+    animation: fade-in 2s ease-out;
+    
   }
   .foguete {
-	position: absolute;
-	transform-origin: 300px 100px;
+	position: fixed;
+	transform-origin: 220px 390px;
+  justify-content: inherit;
+  align-items: inherit;
+  top: 0%;
+
 	animation: foguete 10s linear infinite;
 }
 
@@ -171,6 +205,26 @@ body{
 		transform: rotate(0deg)
 	}
 	100% {
-		transform: rotate(740deg);
+		transform: rotate(400deg);
 	}
 }
+
+@keyframes pulse {
+	0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+}
+}
+
+@keyframes fade-in {
+
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
