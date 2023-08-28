@@ -24,16 +24,23 @@ body{
     justify-content: center;
     margin: 7px;
     background: red;
-    transition: background 1s;
+    transform-origin: background 1s;
     animation: fade-in 5s ease-out;
     animation: go-back-1 4s;
   }
       
   .logo:hover,
   .logo:focus {
-  background: orangered;
+  background: red;
 }
-    
+
+  .lua{
+    display: flex;
+    width: 155px;
+    height: 155px;
+    animation: go-back-8 7s;
+  }
+
   .Logo2{
     width: 125px;
     height: 125px;
@@ -43,7 +50,6 @@ body{
     align-items: center;
     justify-content: center;
     margin: 7px;
-    animation: fade-in 5s ease-out;
     background: green;
     transition: background 1s;
     animation: go-back-2 4s;
@@ -366,3 +372,11 @@ body{
 
     }
   
+    @keyframes go-back-8 {
+      from {
+        transform: translateX(4000px);
+      }
+      to {
+        transform: translateX(0px);
+      }
+    }
