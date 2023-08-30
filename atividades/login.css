@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página de Login</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form>
+      <input type="text" placeholder="Usuário" name="username" required>
+      <input type="password" placeholder="Senha" name="password" required>
+      <button type="submit">Entrar</button>
+    </form>
+  </div>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;/*Família da fonte: define a família da fonte usada para o texto. Neste caso, estamos usando "Arial" como a primeira escolha e a fonte genérica "sans-serif" como a segunda.*/
+  }
+  
+  .login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  Família da fonte: define a família da fonte usada para o texto. Neste caso, estamos usando "Arial" como a primeira escolha e a fonte genérica "sans-serif" como a segunda.
+Cor de fundo: define a cor de fundo do elemento. No exemplo, definimos #f1f1f1, que é um tom de cinza claro.
+Largura: especifica a largura do elemento. No exemplo, definimos a largura do contêiner de login para 300 pixels.
+margin: Especifica a margem externa do elemento. Usamos 0 auto para centralizar o contêiner de conexão horizontalmente.
+Preenchimento: define o preenchimento interno do elemento. Definimos para 20px para adicionar algum espaço entre o conteúdo e as bordas do contêiner de login. Borda: define a borda do elemento. No exemplo, usamos um #ccc sólido de 1px que cria uma borda sólida de 1px, na cor cinza (#ccc).
+Raio da borda: define o raio dos cantos do elemento, criando bordas arredondadas. Definimos 5px para arredondar os cantos do contêiner de login.
+box-shadow: Cria uma sombra ao redor do elemento. Neste caso, usamos 0 2px 5px rgba(0, 0, 0, 0.1), o que significa que a sombra será movida 2px verticalmente, dimensionada em 5px e ficará preta(rgba(0, 0, 0)) opacity 0.1 .
+
+Alinhamento do texto: define o alinhamento do texto dentro do elemento. Usamos center para centralizar o endereço de "contato".
+input[type="text"], input[type="password"]: Define campos de entrada de texto (< input type="text">) e campos de senha (< input type="password" > ) seletor Definimos a largura, preenchimento, margem inferior, borda e raio do canto para estilizá-lo.
+button [type="submit"]: seletor para especificar o botão de envio do formulário (andlt; button type="submit">). Definimos largura, preenchimento, cor de fundo, cor do texto, borda e raio do canto para desenhá-lo.
+:hover: Uma pseudo-classe que especifica o estilo do elemento quando ele é destacado com o cursor do mouse. No exemplo, alteramos a cor de fundo do botão enviar quando o mouse está sobre ele.
